@@ -1,0 +1,7 @@
+import tensorflow as tf
+from tensorflow.keras.layers import Input, Dense, Flatten
+from tensorflow.keras.applications.resnet50 import ResNet50
+from tensorflow.keras.models import Model
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from gtts import gTTS
+import os
